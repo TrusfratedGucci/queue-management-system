@@ -57,8 +57,3 @@ This project is a queue management system for a fictional fast food restaurant c
 - Allows the operator to search for customer details.
 - GUI can be launched via the command prompt using the command 112 or GUI.
 
-Run -> Run 'Main'.
-Usage
-Run the main class to start the command-line interface (CLI) for the queue management system.
-Use the commands listed in the features section to interact with the system.
-To launch the GUI, use the command 112 or GUI in the CLI.
