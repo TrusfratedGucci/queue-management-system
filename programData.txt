@@ -1,0 +1,18 @@
+Foodies Fave Food center
+
+
+
+Burger details
+
+Number of burgers sold in first queue: 6
+Number of burgers sold in second queue: 15
+Number of burgers sold in third queue: 15
+Number of burgers sold: 36
+Number of burgers left: 14
+
+Customer details
+
+Number of customers served in first queue: 1
+Number of customers served in second queue: 2
+Number of customers served in third queue: 2
+Total customers served: 5

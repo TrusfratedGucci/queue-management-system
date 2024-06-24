@@ -1,0 +1,51 @@
+.custom-button {
+    -fx-background-color: #0f7925; /* Green background */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 14px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding */
+    -fx-background-radius: 5px; /* Rounded corners */
+}
+
+.input-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-padding: 5px;
+}
+
+.input-field {
+    -fx-font-size: 14px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 30px;
+    -fx-padding: 5px;
+    -fx-border-color: #ddd;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+}
+
+.custom-button {
+    -fx-font-size: 14px;
+    -fx-pref-height: 30px;
+    -fx-background-color: #0f7925;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+}
+
+.card-pane {
+    -fx-background-color: rgba(255, 255, 255, 0.7); /* Set the background color with opacity */
+    -fx-background-radius: 8px;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 8px;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 2);
+}
+
+.card-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-opacity: 2.0; /* Increase the opacity of the title text */
+}
+
+

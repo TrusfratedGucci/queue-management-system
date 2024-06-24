@@ -1,0 +1,14 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Define the behavior for specific file types.
+*.java text eol=lf
+*.cmd text eol=crlf
+*.sh text eol=lf
+*.txt text eol=lf
+*.xml text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+

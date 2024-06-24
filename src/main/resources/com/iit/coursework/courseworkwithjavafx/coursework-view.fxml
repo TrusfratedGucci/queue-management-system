@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="550.0" prefWidth="840.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.iit.coursework.courseworkwithjavafx.CourseworkController">
+    <children>
+        <AnchorPane prefHeight="550.0" prefWidth="840.0">
+            <children>
+                <ImageView fitHeight="566.0" fitWidth="843.0" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../lidye-1Shk_PkNkNw-unsplash.jpg" />
+                    </image>
+                </ImageView>
+                <Label layoutX="14.0" layoutY="192.0" styleClass="input-label" text="Enter Customer Name:" />
+                <TextField fx:id="customerNameField" layoutX="206.0" layoutY="192.0" styleClass="input-field" />
+                <Button layoutX="324.0" layoutY="302.0" onAction="#searchCustomer" styleClass="custom-button" text="Search" />
+                <GridPane fx:id="customerDetailsPane" layoutX="445.0" layoutY="127.0" prefHeight="283.0" prefWidth="363.0" styleClass="card-pane">
+                    <children>
+                        <Label prefHeight="58.0" prefWidth="419.0" styleClass="card-title" text="Customer Details" />
+                        <Label prefHeight="40.0" prefWidth="161.0" text="Queue:" GridPane.rowIndex="1" />
+                        <Label prefHeight="40.0" prefWidth="134.0" text="Place:" GridPane.rowIndex="2" />
+                        <Label prefHeight="40.0" prefWidth="153.0" text="First Name:" GridPane.rowIndex="3" />
+                        <Label prefHeight="40.0" prefWidth="141.0" text="Last Name:" GridPane.rowIndex="4" />
+                        <Label prefHeight="40.0" prefWidth="150.0" text="Burgers Ordered:" GridPane.rowIndex="5" />
+                        <Label fx:id="queueLabel" prefHeight="17.0" prefWidth="490.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label fx:id="placeInQueueLabel" prefHeight="17.0" prefWidth="234.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <Label fx:id="firstNameLabel" prefHeight="17.0" prefWidth="249.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label fx:id="lastNameLabel" prefHeight="17.0" prefWidth="232.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Label fx:id="burgersOrderedLabel" prefHeight="17.0" prefWidth="234.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                    </children>
+               <columnConstraints>
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+               </rowConstraints>
+                </GridPane>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>
